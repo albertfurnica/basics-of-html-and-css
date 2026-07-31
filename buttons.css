@@ -1,0 +1,105 @@
+/* .general-button = css selector, selecteaza elementele care vor fi personalizate */
+.general-button{
+    /* background-color = css propriety, selecteaza ce anume sa schimbe pentru elementul button */
+    /* : red = css value, selecteaza valoarea */
+    background-color: rgba(66, 233, 224, 0.952);
+    /* color - schimba culoarea fontului */
+    color: rgb(97, 86, 86);
+    /* border - exteriorul butonului */
+    border: none;
+    /* height - dimensiunea inaltimii / latimii a butonului*/
+    height : 36px;
+    /* width - dimensiunea lungimii a butonului */
+    width: 105px;
+    /* border-radius - colturile butonului */
+    border-radius: 10px;
+    /* cursor - schimba cursorul atunci cand este deasupra butonului */
+    cursor: crosshair;
+}
+/* hover, active se numesc pseudoclase */
+/* :hover - customizam doar starea butonului atunci cand cursorul se afla deasupra sa */
+.general-button:hover{
+    background-color: green;
+
+}
+/* :active - customizam doar starea butonului atunci cand este apasat */
+.general-button:active{
+    background-color: blue;
+}
+
+
+/* folosind .subscribe-button customizam doar butoanele care au eticheta respectiva */
+.subscribe-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 3px;
+    cursor: pointer;
+    /* margin-right - selecteaza directa impreuna cu spatiul adaugat in directia respectiva */
+    margin-right: 8px;
+    /* transition - adauga un efect de tranzitie / smoothest asupra butonului */
+    /* primul parametru - ce fel de tranzitie dorim sa adaugam, al doilea parametru - durata tranzitiei */
+    transition: opacity 0.15s;
+}
+
+.subscribe-button:hover{
+    /* opacity - seteaza opacitatea intre 0 si 1*/
+    opacity: 0.8;
+}
+
+.subscribe-button:active{
+    opacity: 0.5;
+}
+
+
+.join-button{
+    background-color: white;
+    /* border-color - culoarea chenarului */
+    border-color: rgb(41, 118, 211);
+    /* border-style - stilul chenarului */
+    border-style: solid;
+    /* border-width - inaltimea / latimea chenarului */
+    border-width: 1px;
+    color: rgb(41, 118, 211);
+    height: 36px;
+    width: 62px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    /* putem adauga mai multe tipuri de tranzitii folosind , */
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+
+.join-button:active{
+    opacity: 0.7;
+}
+
+
+.tweet-button{
+    background-color: rgb(27, 144, 238);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 36px;
+    width: 80px;
+    /* font-weight - schimba fontul butonului */
+    font-weight: bold;
+    /* font-size - dimensiunea fontului*/
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover{
+    /* box-shadow - adauga o umbra asupra butonului */
+    /* primul parametru - pozitia orizontala, al 2-lea parametru - pozitia verticala, al 3-lea parametru - blurul, al 4-lea element - culoarea */
+    /* rgba - la fel ca rgb doar ca 'a' mai adauga un parametru - opacitatea culorii */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
