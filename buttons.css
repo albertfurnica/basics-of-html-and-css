@@ -33,9 +33,15 @@
     background-color: rgb(200, 0, 0);
     color: white;
     border: none;
-    height: 36px;
-    width: 105px;
+    /* CSS box model se refera la conceptele : 
+    pe exterior - margin, pe interior - padding, border si content */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 3px;
+    /* vertical-align - aliniaza totul in partea de sus */
+    vertical-align: top;
     cursor: pointer;
     /* margin-right - selecteaza directa impreuna cu spatiul adaugat in directia respectiva */
     margin-right: 8px;
@@ -63,8 +69,11 @@
     /* border-width - inaltimea / latimea chenarului */
     border-width: 1px;
     color: rgb(41, 118, 211);
-    height: 36px;
-    width: 62px;
+    /* padding - adauga spatiu intre scris si chenarul butonului */
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 5px;
     cursor: pointer;
     margin-right: 8px;
@@ -89,6 +98,7 @@
     border-radius: 50px;
     height: 36px;
     width: 80px;
+    vertical-align: top;
     /* font-weight - schimba fontul butonului */
     font-weight: bold;
     /* font-size - dimensiunea fontului*/

@@ -1,0 +1,45 @@
+p{
+    /* display: inline-block - le schimba proprietatea pentru a isi ocupa doar
+       doar spatiul necesar 
+       display: block - seteaza pentru a ocupa o linie intreaga
+       */
+    display: inline-block;
+
+}
+
+button{
+    font-size: Arial;
+    margin-right: 1000px;
+    margin-bottom: 5px;
+    background-color: rgb(71, 240, 215);
+    cursor: pointer;
+}
+
+a{
+    font-size: Arial;
+    margin-right: 1000px;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-top: 10px;
+    border-style: solid;
+    border-color: rgb(24, 174, 24);
+    font-size: 20px;
+}
+
+/* imagini */
+.thumbnail{
+    /* daca se schimba latimea, automat se scaleaza si lungimea (vice-versa) */
+    width: 300px;
+    /* daca se seteaza si lungimea se foloseste object-fit */
+    height: 300px;
+    /* object-fit: cover - formateaza imaginea sa se afiseze doar 300x300 */
+    /* object-position - muta imaginea in cei 300x300 pixeli */
+    object-fit: contain;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    margin-top: 10px;
+    border-radius: 10px;
+}

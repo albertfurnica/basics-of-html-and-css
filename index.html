@@ -1,6 +1,10 @@
 <!--
 <button> = html element, fiecare element are un tag
-<button> (opening tag) </button> (closing tag)
+<button> (opening tag) 
+</button> (closing tag)
+1. block element = isi ocupa intreaga linie (<p> paragraful)
+2. inline-block element = isi ocupa doar cat are nevoie (img, input)
+3. inline element = apare intr o linie de text
 -->
 
 <!DOCTYPE html>
@@ -10,6 +14,7 @@
 <head>
     <!-- titlul efectiv al paginii -->
     <title>pagina testing</title>
+    <link rel = "stylesheet" href = "index.css">
 </head>
 
 <!-- corpul propriu zis al paginii -->
@@ -23,16 +28,16 @@
     <!-- href = html attribute, se modifica destinatia linkului -->
     <!-- target = html attribute, se modifica modul de deschidere al linkului -->
     <a href="https://www.youtube.com/" target = "_blank"> link to yt : </a>
-</body>
 
-<!-- teste -->
-<body>
-    <button>CLick</button>
-    <button>Alberto grasu</button>
-    <button>femeile</button>
-    <p>Hello world, cauta pe google :</p>
-    <a href = "https://www.google.com/" target = "_blank"> Search with google </a>
-    <p> imi plac femeile rau</p>
+
+    <!-- introducere textbox -->
+    <!-- placeholder apare vizual pana se introduce ceva -->
+    <input type = "textbox" placeholder = "introdu ceva">
+    <input type = "checkbox">
+    <input type = "password" placeholder = "introdu parola">
+
+    <!-- introducere imagine, src = calea fisierului -->
+    <img class = "thumbnail" src = "thumbnail-1.webp">
 </body>
 
 </html>

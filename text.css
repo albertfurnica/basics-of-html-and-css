@@ -1,0 +1,66 @@
+/* pentru a evita repetarea proprietatilor, declaram un stil cu numele obiectelor corespunzatoare
+css specifity, selector, cel mai specific selector are prioritate 
+class name selector > element name selector */
+p{
+    /* font-family - schimba fontul */
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.video-title{
+    /* font-size - marimea fontului*/
+    font-size: 18px;
+    /* font-weight - cat de mult ingroasa textul*/
+    font-weight: bold;
+    /* font-style - schimba stilul fontului */
+    font-style: italic;
+    /* text-aling - aliniaza textul dupa preferinta*/
+    text-align: left;
+    /* line-height - distanta dintre linii */
+    line-height: 24px;
+    /* pentru a adauga un newline */
+    width: 280px;
+    margin-bottom: 5px;
+}
+
+.video-stats{
+    font-size: 14px;
+    /* color - culoarea fontului */
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.video-author{
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.video-description{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+
+.apple-text{
+    color: white;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.shop-link{
+    cursor: pointer;
+}
+
+.shop-link:hover{
+    /* text-decoration - adauga unele efecte asupra textului */
+    text-decoration: underline;
+}
+
