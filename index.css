@@ -31,7 +31,7 @@ input{
 /* imagini */
 .thumbnail{
     /* daca se schimba latimea, automat se scaleaza si lungimea (vice-versa) */
-    width: 300px;
+    
     /* daca se seteaza si lungimea se foloseste object-fit */
     height: 300px;
     /* object-fit: cover - formateaza imaginea sa se afiseze doar 300x300 */
@@ -41,5 +41,9 @@ input{
     border-style: solid;
     border-color: red;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 500px;
+}
+
+.div-example{
+    display: inline-block;
 }

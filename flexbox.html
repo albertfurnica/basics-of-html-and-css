@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formatari flexbox</title>
+        <!-- 
+        grid = rigid layout
+        flexbox = flexible layout
+        -->
+    </head>
+
+    <body>
+        <div style="
+/*      !!!
+        display: flex - selecteaza display ul sa fie de tip flexbox
+        flex-direction: - selecteaza randuri sau coloane
+*/
+        display: flex;
+        flex-direction: row;    
+        ">
+
+            <div style ="
+            background-color: lightblue;    
+            ">
+                div1 text
+            </div>
+            
+            <div style ="
+            background-color: lightpink;    
+            ">
+                div2 <p>text</p>
+
+            </div>
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;    
+        ">
+
+            <div style ="
+            background-color: lightblue;
+            width: 100px;  
+            ">
+                100px
+            </div>
+                
+            <div style ="
+            background-color: lightpink;
+/*      !!!
+            flex 1 - seteaza sa ocupe spatiul ramas
+            (echivalent cu grid-template-columns: 1fr;)
+*/
+            flex: 1; 
+            ">
+                flex1
+            </div>
+
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;    
+        ">
+ 
+            <div style ="
+            background-color: lightblue;
+            flex: 1; 
+            ">
+                flex1
+            </div>
+
+            <div style ="
+            background-color: lightpink;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+            <div style ="
+            background-color: lightblue;
+            flex: 2;
+            ">
+                flex2
+            </div>
+
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: flex;
+        flex-direction: row;
+/*      !!!
+        justify-content - seteaza pozitia div urilor
+*/
+        justify-content: center;   
+        ">
+ 
+            <div style ="
+            background-color: lightblue;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+            <div style ="
+            background-color: lightpink;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+            <div style ="
+            background-color: lightblue;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;   /* imparte div urile in mod egal */
+        ">
+ 
+            <div style ="
+            background-color: lightblue;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+            <div style ="
+            background-color: lightpink;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+            <div style ="
+            background-color: lightblue;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; /* seteaza div urile pe plan vertical */
+        ">
+ 
+            <div style ="
+            background-color: lightblue;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+            <div style ="
+            background-color: lightpink;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+            <div style ="
+            background-color: lightblue;
+            width: 100px;  
+            ">
+                100px
+            </div>
+
+        </div>
+    
+    </body>
+
+</html>
