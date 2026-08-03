@@ -1,0 +1,38 @@
+/* sidebar css */
+
+.sidebar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 1;
+    padding-top: 5px;
+}
+
+.sidebar-link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction - aseaza elementele unul sub altul */
+    flex-direction: column;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+/* targetam toate imaginile din interiorul div ului sidebar-link */
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    padding-top: 3px;
+}

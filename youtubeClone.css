@@ -7,81 +7,12 @@ p{
 }
 body{
     margin: 0px;
-}
-
-/* header css*/
-.search-bar{
-    display: block;
-}
-
-.header{
-    height: 55px;
-    /* transformarea div ului intr un flexbox */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.left-section{
-    background-color: lightblue;
-    width: 150px;
-}
-
-.middle-section{
-    background-color: lightpink;
-    flex: 1;
-    margin-left: 70px;
-    margin-right: 35px;
-    /* max-width - limitarea lungimii */
-    max-width: 800px;
-}
-
-.right-section{
-    background-color: lightblue;
-    width: 200px;
-}
-
-
-/* video css*/
-.video-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 16px;
-    row-gap: 40px;
-}
-
-.thumbnail-row{
-    margin-bottom: 12px;
-}
-
-.thumbnail{
-    width: 100%;
-}
-
-.video-info-grid{
-    display: grid;
-    grid-template-columns: 50px 1fr;
-}
-
-.profile-picture{
-    width: 40px;
-    border-radius: 100%;
-}
-
-
-.video-title{
-    margin-bottom: 12px;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-}
-
-/* aplicarea aceluiasi stil pentru 2 paragrafe diferite */
-.video-author, .video-stats{
-    font-size: 12px;
-    color: rgb(96,96,96);
-}
-
-.video-author{
-    margin-bottom: 4px;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(248, 248, 248);
+    /* inheritance - deoarece toate div urile se afla in interiorul body ului, 
+    orice schimare de text asupra body ului se aplica si div urilor
+     */
+    font-family: Roboto, Arial;
 }
